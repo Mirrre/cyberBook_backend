@@ -26,7 +26,6 @@ public class AuthInterceptorHandler implements HandlerInterceptor {
     /**
      * 前置拦截器
      */
-    @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
 
         if(!(handler instanceof HandlerMethod)){
